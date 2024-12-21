@@ -130,7 +130,7 @@ public class Runigram {
 	 * Returns an image which is the grayscaled version of the given image.
 	 */
 	public static Color[][] grayScaled(Color[][] image) {
-		
+
 		Color[][] grayImage = new Color[image.length][image[0].length];
         for (int i = 0; i < image.length; i++) {
             for (int j = 0; j < image[0].length; j++) {

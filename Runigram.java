@@ -120,7 +120,7 @@ public class Runigram {
 		int g = pixel.getGreen();
 		int b = pixel.getBlue();
 
-		int grey = (int) (0.299 * r + 0.5878 * g + 0.114 * b);
+		int grey = (int) (0.299 * r + 0.587 * g + 0.114 * b);
 
 		Color lum = new Color(grey, grey, grey);
 		return lum;
